@@ -1,4 +1,4 @@
-Link github: https://github.com/lamtruongolpo123/bai_tap_kiemthuphanmem_baitapcanhan
+Link github: https://github.com/lamtruongolpo123/bai_tap_kiemthuphanmem_baitapcanhan/tree/main/Lab1
 
 I. VERIFICATION & VALIDATION
 What are the problems of those two systems?
@@ -213,27 +213,6 @@ ________________________________________
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 test_solver.cpp
 #include <iostream>
 #include <cmath>
@@ -320,6 +299,5 @@ run_test.ipynb
 
 # Chạy chương trình kiểm thử
 !./solver
-
 
 
