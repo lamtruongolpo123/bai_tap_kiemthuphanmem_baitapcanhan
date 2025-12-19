@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0" version="28.2.5">
+  <diagram name="Swagger API Documentation" id="IU9rHaqwz2ZFtX1YNZIW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-1" value="Bài 3. Về sơ đồ API của hệ thống:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-2" value="" style="rounded=5;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="860" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-3" value="swagger" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#7CB342;strokeWidth=2;fillColor=#8BC34A;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-4" value="Select a spec    v1.0.0 ▼" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;strokeWidth=1;fillColor=#FFFFFF;fontSize=12;align=right;" vertex="1" parent="1">
+          <mxGeometry x="650" y="85" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-5" value="Coolstore services 📋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-6" value="Version: 1.0.0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-7" value="comprehensive microservice project - Microservices&#xa;used to demonstrate architectural design" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="195" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-8" value="Base URL:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-9" value="HTTP" style="rounded=2;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;strokeWidth=1;fillColor=#F5F5F5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="248" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-10" value="Authorize 🔓" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#4CAF50;strokeWidth=1;fillColor=#FFFFFF;fontColor=#4CAF50;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="750" y="245" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-11" value="CartService ▼" style="rounded=2;whiteSpace=wrap;html=1;strokeColor=#E0E0E0;strokeWidth=1;fillColor=#F5F5F5;fontSize=14;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="810" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-12" value="GET    /carts/api/carts" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#4CAF50;strokeWidth=1;fillColor=#E8F5E8;fontColor=#2E7D32;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-13" value="PUT    /carts/api/carts" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#FF9800;strokeWidth=1;fillColor=#FFF3E0;fontColor=#F57C00;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-14" value="GET    /carts/api/carts/{cart_id}" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#2196F3;strokeWidth=1;fillColor=#E3F2FD;fontColor=#1976D2;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-15" value="PUT    /carts/api/carts/{cart_id}/checkout" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#FF9800;strokeWidth=1;fillColor=#FFF3E0;fontColor=#F57C00;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-16" value="DELETE    /carts/api/carts/{cart_id}/items/{product_id}" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#F44336;strokeWidth=1;fillColor=#FFEBEE;fontColor=#D32F2F;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-17" value="CatalogService ▼" style="rounded=2;whiteSpace=wrap;html=1;strokeColor=#E0E0E0;strokeWidth=1;fillColor=#F5F5F5;fontSize=14;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="810" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-18" value="GET    /catalog/api/products" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#4CAF50;strokeWidth=1;fillColor=#E8F5E8;fontColor=#2E7D32;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-19" value="GET    /catalog/api/products/{current_page}/{high_price}" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#2196F3;strokeWidth=1;fillColor=#E3F2FD;fontColor=#1976D2;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-20" value="GET    /catalog/api/products/{product_id}" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#2196F3;strokeWidth=1;fillColor=#E3F2FD;fontColor=#1976D2;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-21" value="InventoryService ▼" style="rounded=2;whiteSpace=wrap;html=1;strokeColor=#E0E0E0;strokeWidth=1;fillColor=#F5F5F5;fontSize=14;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="810" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-22" value="GET    /inventory/api/availabilities" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#2196F3;strokeWidth=1;fillColor=#E3F2FD;fontColor=#1976D2;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="810" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-23" value="GET    /inventory/api/availabilities/{id}" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#2196F3;strokeWidth=1;fillColor=#E3F2FD;fontColor=#1976D2;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-24" value="POST    /inventory/api/inventory/migrate" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#4CAF50;strokeWidth=1;fillColor=#E8F5E8;fontColor=#2E7D32;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-25" value="RatingService ▼" style="rounded=2;whiteSpace=wrap;html=1;strokeColor=#E0E0E0;strokeWidth=1;fillColor=#F5F5F5;fontSize=14;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="950" width="810" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-26" value="GET    /rating/api/ratings" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#2196F3;strokeWidth=1;fillColor=#E3F2FD;fontColor=#1976D2;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1000" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-27" value="POST    /rating/api/ratings" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#4CAF50;strokeWidth=1;fillColor=#E8F5E8;fontColor=#2E7D32;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1040" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-28" value="PUT    /rating/api/ratings" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#FF9800;strokeWidth=1;fillColor=#FFF3E0;fontColor=#F57C00;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1080" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1oscC7lnsUJ-T-vnl58a-29" value="GET    /rating/api/ratings/{product_id}" style="rounded=3;whiteSpace=wrap;html=1;strokeColor=#2196F3;strokeWidth=1;fillColor=#E3F2FD;fontColor=#1976D2;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1120" width="790" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
